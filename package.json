@@ -1,0 +1,19 @@
+{
+  "name": "adv-promise",
+  "version": "1.0.1",
+  "description": "Promise utils",
+  "license": "MIT",
+  "author": {
+    "name": "Fabeuluci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabeuluci/adv-promise.git"
+  },
+  "main": "./out/index.js",
+  "types": "./out/index.d.ts",
+  "scripts": {
+    "compile": "rm -rf out && tsc",
+    "watch": "rm -rf out && tsc -w"
+  }
+}
